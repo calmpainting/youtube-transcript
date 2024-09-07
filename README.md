@@ -11,6 +11,12 @@ This project fetches transcripts from videos from specified YouTube channels and
 
 ## Installation
 
+### Windows
+
+Please use the executable (.exe).
+
+### Linux
+
 1. Clone the repository:
 
     ```bash
