@@ -14,7 +14,7 @@ def ensure_env_file():
         print(".env file created with your API_KEY.")
     load_dotenv()
 
-ensure_env_file()  # Ensure .env file is loaded or created
+ensure_env_file()
 
 API_KEY = os.getenv('API_KEY')
 
