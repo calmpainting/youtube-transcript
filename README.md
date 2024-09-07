@@ -14,7 +14,7 @@ This project fetches transcripts from videos from specified YouTube channels and
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/youtube_transcript.git
+    git clone https://github.com/calmpainting/youtube_transcript.git
     cd youtube_transcript
     ```
 
