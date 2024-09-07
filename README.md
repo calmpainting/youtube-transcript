@@ -14,8 +14,8 @@ This project fetches transcripts from videos from specified YouTube channels and
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/youtube_transcript_fetcher.git
-    cd youtube_transcript_fetcher
+    git clone https://github.com/your-username/youtube_transcript.git
+    cd youtube_transcript
     ```
 
 2. Install the dependencies using `pip`:
