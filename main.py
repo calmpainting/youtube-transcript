@@ -4,7 +4,17 @@ from youtube_transcript_api import YouTubeTranscriptApi
 from tqdm import tqdm
 from dotenv import load_dotenv
 
-load_dotenv()
+def ensure_env_file():
+    env_path = os.path.join(os.getcwd(), '.env')
+    if not os.path.exists(env_path):
+        print("No .env file found.")
+        api_key = input("Please enter your API_KEY: ")
+        with open(env_path, 'w') as env_file:
+            env_file.write(f"API_KEY={api_key}\n")
+        print(".env file created with your API_KEY.")
+    load_dotenv()
+
+ensure_env_file()  # Ensure .env file is loaded or created
 
 API_KEY = os.getenv('API_KEY')
 
